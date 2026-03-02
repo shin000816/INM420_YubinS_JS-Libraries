@@ -1,0 +1,23 @@
+{
+  "name": "inm420_yubins_js-libraries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=\"matcha\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shin000816/INM420_YubinS_JS-Libraries.git"
+  },
+  "author": "Yubin Shin",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shin000816/INM420_YubinS_JS-Libraries/issues"
+  },
+  "homepage": "https://github.com/shin000816/INM420_YubinS_JS-Libraries#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
