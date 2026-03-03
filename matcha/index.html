@@ -9,12 +9,54 @@
         <!-- CSS -->
         <link rel="stylesheet" href="./CSS/style.css">
         
+        <!-- glide css -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"/>
+
+        <!-- aos css -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+        <!-- leaflet css -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+        <link rel="icon" href="data:,">
+
         <title>INM420 Assignment: JS Libraries</title>
     </head>
 
     <body>
-        
+        <header class="container">
+            <h1>Travel Information</h1>
 
+            <div class="controls">
+                <label for="countries" class="label">Choose a destination</label>
+                <select id="countries">
+                    <option value="canada">Canada</option>
+                    <option value="korea">Korea</option>
+                    <option value="france">France</option>
+                    <option value="mexico=">Mexico</option>
+                </select>
+
+                <button id="btn" type="button">View</button>
+            </div>
+
+            <p id="status" class="status" aria-live="polite"></p>
+        </header>
+
+        <main class="container">
+            
+        </main>
+            
+        <footer class="container footer">
+            <p><strong>Libraries used (4):</strong> Leaflet.js, Chart.js, Glide.js, AOS</p>
+        </footer>
+
+        <!-- JS Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+        <!-- JS -->
         <script src="./JS/script.js"></script>
     </body>
 </html>
