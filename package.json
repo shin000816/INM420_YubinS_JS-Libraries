@@ -19,5 +19,11 @@
   "homepage": "https://github.com/shin000816/INM420_YubinS_JS-Libraries#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.7.1",
+    "aos": "^2.3.4",
+    "chart.js": "^4.5.1",
+    "leaflet": "^1.9.4"
   }
 }

@@ -1,0 +1,90 @@
+{
+    "canada": {
+        "name": "Canada",
+        "tagline": "Clean cities, big nature, easy transit.",
+        "currency": "CAD",
+        "best_season": "Summer / Fall",
+        "avg_daily_budget": 155,
+        "safety_index": 82,
+        "food_score": 74,
+        "highlights": ["Toronto", "Alberta"],
+        "images": [
+            "./assets/Toronto_Ca.jpeg",
+            "./assets/Alberta_Ca.jpeg"
+        ],
+        "map": {
+            "center": [56.1304, -106.3468],
+            "zoom": 3,
+            "spots": [
+                { "name": "toronto", "coords": [43.6532, -79.3832] },
+                { "name": "banff (alberta)", "coords": [51.1784, -115.5708] }
+            ]
+        }
+    },
+    "korea": {
+        "name": "Korea",
+        "tagline": "Street food, cafes, and night views.",
+        "currency": "KRW",
+        "best_season": "Spring / Fall",
+        "avg_daily_budget": 120,
+        "safety_index": 86,
+        "food_score": 90,
+        "highlights": ["Seoul, Busan"],
+        "images": [
+            "./assets/Seoul01_Kr.jpeg",
+            "./assets/Seoul02_Kr.jpeg"
+        ],
+        "map": {
+            "center": [36.5, 127.8],
+            "zoom": 6,
+            "spots": [
+                { "name": "seoul", "coords": [37.5665, 126.978] },
+                { "name": "busan", "coords": [35.1796, 129.0756] }
+            ]
+        }
+    },
+    "france": {
+        "name": "France",
+        "tagline": "Art, pastries, and beautiful streets.",
+        "currency": "EUR",
+        "best_season": "Spring / early Summer",
+        "avg_daily_budget": 175,
+        "safety_index": 78,
+        "food_score": 88,
+        "highlights": ["Paris, Nice"],
+        "images": [
+            "./assets/Paris01_Fr.jpeg",
+            "./assets/Paris02_Fr.jpeg"
+        ],
+        "map": {
+            "center": [46.2276, 2.2137],
+            "zoom": 5,
+            "spots": [
+                { "name": "paris", "coords": [48.8566, 2.3522] },
+                { "name": "nice", "coords": [43.7102, 7.262] }
+            ]
+        }
+    },
+    "mexico": {
+        "name": "Mexico",
+        "tagline": "History, color, and unforgettable food.",
+        "currency": "MXN",
+        "best_season": "November to April",
+        "avg_daily_budget": 95,
+        "safety_index": 62,
+        "food_score": 92,
+        "highlights": ["Mexico City", "Chichen Itza"],
+        "images": [
+            "./assets/MexicoCity_Mx.jpeg",
+            "./assets/ChichenItza_Mx.jpeg"
+        ],
+        "map": {
+            "center": [23.6345, -102.5528],
+            "zoom": 4,
+            "spots": [
+                { "name": "mexico city", "coords": [19.4326, -99.1332] },
+                { "name": "chichen itza", "coords": [20.6843, -88.5678] }
+            ]
+        }
+    }
+}
