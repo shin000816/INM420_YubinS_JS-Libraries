@@ -80,7 +80,7 @@ function render(destination) {
         </section>
 
         <section class="card" data-aos="fade-up">
-            <h2>photos</h2>
+            <h2>Photos</h2>
 
             <div class="glide" id="glide">
                 <div class="glide__track" data-glide-el="track">
@@ -95,26 +95,26 @@ function render(destination) {
 
         <section class="grid2">
             <section class="card" data-aos="fade-up">
-                <h2>snapshot</h2>
+                <h2>Snapshot</h2>
 
                 <div class="snapshot">
                     <div class="row">
-                        <span class="label">currency</span>
+                        <span class="label">Currency</span>
                         <span class="value">${destination.currency}</span>
                     </div>
                     <div class="row">
-                        <span class="label">avg daily budget</span>
+                        <span class="label">Avg Daily Budget</span>
                         <span class="value">$${destination.avg_daily_budget}</span>
                     </div>
                     <div class="row">
-                        <span class="label">highlights</span>
+                        <span class="label">Highlights</span>
                         <span class="value">${destination.highlights.join(", ")}</span>
                     </div>
                 </div>
             </section>
 
             <section class="card" data-aos="fade-up">
-                <h2>quick chart</h2>
+                <h2>Quick Chart</h2>
                 <div class="chartWrap">
                     <canvas id="chart"></canvas>
                 </div>
@@ -122,7 +122,7 @@ function render(destination) {
         </section>
 
         <section class="card" data-aos="fade-up">
-            <h2>map</h2>
+            <h2>Map</h2>
             <div id="map" class="map" aria-label="map"></div>
         </section>
     `;

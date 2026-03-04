@@ -8,6 +8,11 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
         <!-- CSS -->
         <link rel="stylesheet" href="./CSS/style.css">
+
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">        
         
         <!-- glide css -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/css/glide.core.min.css">
@@ -23,27 +28,52 @@
     </head>
 
     <body>
-        <header class="container">
-            <h1>Travel Tips</h1>
+        <header class="siteHeader">
+            <div class="container navBar">
+                <div class="logo">Travel</div>
 
-            <div class="controls">
-                <label for="countries" class="label">Choose a destination</label>
-                <select id="countries" name="countries">
-                    <option value="canada">Canada</option>
-                    <option value="korea">Korea</option>
-                    <option value="france">France</option>
-                    <option value="mexico">Mexico</option>
-                </select>
+                <nav class="nav">
+                    <a href="#top">home</a>
+                    <a href="#destinations">destinations</a>
+                    <a href="#packages">packages</a>
+                    <a href="#about">about</a>
+                </nav>
 
-                <button id="btn" type="button">View</button>
+                <div class="navRight">
+                    <div class="controlsPanel">
+                        <div class="controls">
+                            <select id="countries" name="countries">
+                                <option value="canada">Canada</option>
+                                <option value="korea">Korea</option>
+                                <option value="france">France</option>
+                                <option value="mexico">Mexico</option>
+                            </select>
+
+                            <button id="btn" class="btnPrimary" type="button">view</button>
+                        </div>
+
+                        <p id="status" class="status" aria-live="polite"></p>
+                    </div>
+                </div>
             </div>
 
-            <p id="status" class="status" aria-live="polite"></p>
+            <section class="container hero" id="top">
+                <div class="heroMedia">
+                    <div class="heroOverlay">
+                        <h1>PLAN YOUR NEXT TRIP</h1>
+                        <p>Choose a destination and explore photos, maps, and travel insights.</p>
+
+                        <div class="heroActions">
+                            <button class="btnLight" type="button">plan your trip</button>
+                            <button class="btnGhost" type="button">explore destinations</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </header>
 
-        <main class="container" id="app">
+        <main class="container" id="app"></main>
             
-        </main>
             
         <footer class="container footer">
             <p><strong>Libraries used (4):</strong> Leaflet.js, Chart.js, Glide.js, AOS</p>
